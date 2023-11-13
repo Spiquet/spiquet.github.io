@@ -1,0 +1,217 @@
+# Page settings
+
+baseURL = "https://spiquet.github.io/"
+languageCode = "en"
+title = "cv-Simon"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+[params]
+author = "CowboySmall"
+description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+primaryColor = "#54B689"
+textPrimaryColor = "#292929"
+
+
+[params.profile]
+enable = true
+name = "Simon Piquet"
+tagline = "JavaScript Developer"
+avatar = "avatar-circle.png"
+
+
+[params.contact]
+enable = true
+location = "Germany"
+
+[[params.contact.list]]
+icon = "fas fa-phone-square"
+url = "tel:#"
+text = "+33 650237968"
+[[params.contact.list]]
+icon = "fas fa-envelope-square"
+url = "mailto:#"
+text = "piquet.simon@yahoo.fr"
+
+
+[params.skills]
+enable = true
+
+[[params.skills.list]]
+title = "Technical"
+[[params.skills.list.items]]
+details = "JavaScript/TypeScript"
+[[params.skills.list.items]]
+details = "Angular/React/Vue"
+[[params.skills.list.items]]
+details = "React Native/Ionic"
+[[params.skills.list.items]]
+details = "Next.js/Nuxt.js"
+[[params.skills.list.items]]
+details = "Node.js"
+[[params.skills.list.items]]
+details = "Object-oriented design"
+
+[[params.skills.list]]
+title = "Professional"
+[[params.skills.list.items]]
+details = "Effective communication"
+[[params.skills.list.items]]
+details = "Team player"
+[[params.skills.list.items]]
+details = "Strong problem solver"
+
+
+[params.education]
+enable = true
+
+[[params.education.list]]
+degree = "Professional title Web and mobile web developer level III (second-year university level)"
+university = "WCS of Bordeaux"
+dates = "2020 - 2021"
+[[params.education.list]]
+degree = "Master's Degree in political science"
+university = "University of Bordeaux"
+dates = "2015 - 2016"
+[[params.education.list]]
+degree = "Master's Degree in economical sciences"
+university = "University of Bordeaux"
+dates = "2014 - 2015"
+
+
+[params.awards]
+enable = false
+
+[[params.awards.list]]
+name = "Award Lorem Ipsum"
+body = "Microsoft lorem ipsum"
+date = "2019"
+[[params.awards.list]]
+name = "Award Donec Sodales"
+body = "Oracle Aenean"
+date = "2017"
+
+
+[params.languages]
+enable = true
+
+[[params.languages.list]]
+name = "French"
+level = "Native"
+[[params.languages.list]]
+name = "English"
+level = "Professional"
+[[params.languages.list]]
+name = "German"
+level = "Conversational 🚧"
+
+
+[params.interests]
+enable = true
+
+[[params.interests.list]]
+name = "Surfing & Water sports"
+[[params.interests.list]]
+name = "Triathlon"
+[[params.interests.list]]
+name = "Crossfit"
+[[params.interests.list]]
+name = "Literature"
+
+
+[params.summary]
+enable = true
+text = "I'm a javascript developer with a passion for the world of code. I'm looking for a company where I can continue to grow and make an impact. I'm mainly front-end oriented but I also enjoy working on the back end. I want to work in a supportive environment where teamwork is an important value."
+
+
+[params.experience]
+enable = true
+
+
+[[params.experience.list]]
+title = "Front-End Developer"
+dates = "11/2022 - Present"
+company = "Portvier"
+details = "Port4 is an agency where I've had the opportunity to work on various projects as a Front End Developer. I've worked on a number of digital projects ranging from simple websites to more complex and ambitious applications."
+[[params.experience.list.items]]
+details = " URSAPHARM, a German manufacturer of pharmaceutical products. I've had the chance to work on the creation of new sites (brands) for this client, as well as helping to maintain and improve existing projects. Recently, I've had the opportunity to take the lead on the Front End for all of these projects. Used technologies: Nuxt.js, JavaScript, Tailwind and HCMS."
+
+[[params.experience.list.items]]
+details = "REBIRTH:ACTIVE, a mobile application based on scientific results aimed at helping users adopt a healthy and balanced lifestyle. Used technologies: React Native, JavaScript, PHP and Laravel for this project."
+
+[[params.experience.list.items]]
+details = "CATALPA VENTURES, an investment fund specialising in healthcare companies, I used technologies such as React, TypeScript and Stroryblocks to quickly develop a website that allowed the client to easily manage the content."
+
+[[params.experience.list.items]]
+details = "GREENSQUARE, a green coffee management and trading platform. The goal was to develop a platform to modernise the coffee trading sector and bring it into the digital age. Used technologies: Next.js, React, TypeScript and Node.js."
+
+[[params.experience.list]]
+title = "Front-End Developer"
+dates = "03/2022 - 06/2022"
+company = "Pulpr"
+details = "Pulpr is the first platform to offer a complete and efficient centralization of all supplier knowledge by building bridges between business and purchasing departments. As a front-end developer, I had to work on both customer and supplier portals and to quickly gain skills on the React library."
+[[params.experience.list.items]]
+details = "Used technologies : React | Node.js | typescript | Hasura"
+
+[[params.experience.list]]
+title = "Front-End Developer"
+dates = "10/2020 - 03/2022"
+company = "Flitdesk"
+details = "Flitdesk is the all-in-one solution to simplify the management of modern offices and workspaces. As a front-end developer I was able to work on the back office as well as on mobile applications. I also had the opportunity to work on the back end sporadically."
+[[params.experience.list.items]]
+details = "Used technologies: Angular | Ionic | Node.js | TypeScript"
+[[params.experience.list.items]]
+details = "Working method : SCRUM | Shape Up"
+
+[[params.experience.list]]
+title = "Full-Stack Developer"
+dates = "02/2020 - 06/2020"
+company = "Nuage Studio"
+details = "Nuage is a company that creates Serverless applications from the cloud architecture to the front-end interface. As a full-stack developer intern I was able to work on the back-end of an application using the Django framework (python) and then on the front-end of a second application using the React library."
+[[params.experience.list.items]]
+details = "Used technologies: Django | Python | React | TypeScript"
+[[params.experience.list.items]]
+details = "Working method : SCRUM"
+
+
+[params.projects]
+enable = true
+
+[[params.projects.list]]
+title = "Stripe Project"
+meta = "Personal project"
+tagline = "This project allows to use the Stripe API to subscribe to a product via the React client. The main objective is to practice the implementation of tests and a CI. Then to dock the application and deploy it. ( React | Apollo Client | Node.js | Express.js | Type ORM | GraphQL | Docker | CircleCI )"
+
+[[params.projects.list]]
+title = "Kanopee Koncept"
+meta = "Personal project"
+tagline = "Realization of a responsive web application for an urban agriculture company within a team of four developers. The objective is to bring together the different players linked to the company and to increase its exposure ( Angular | Node.js | Express.js | Type ORM | SQL )"
+
+
+[params.information]
+enable = true
+
+[[params.information.list]]
+title = "Associations and activities"
+[[params.information.list.items]]
+details = "Triathlon competitions | Regional and National level"
+[[params.information.list.items]]
+details = "National lifeguard rescue instructor | Société Nationale de Sauvetage en mer (France)"
+[[params.information.list.items]]
+details = "Lifeguard/Rescuer for extreme sport events | Red Bull Cliff Diving"
+
+
+[params.social]
+enable = true
+
+[[params.social.list]]
+icon = "fab fa-github-square"
+url = "//github.com/spiquet"
+title = "spiquet"
+[[params.social.list]]
+icon = "fab fa-linkedin"
+url = "//linkedin.com/in/simonpiquet"
+title = "simonpiquet"
